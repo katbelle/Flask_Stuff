@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+		
+
+		{% block content %}
+		<form action="/madlib" method="GET">
+			Who is your least favortie LOTR person.
+			<input name="person"><br>
+
+			What's your faaaav color?
+			<input name="color"><br>
+
+			Gimme dat noun bb
+			<input name="noun"><br>
+
+			What's an adjective you'd call ur mom?
+			<input name="adjective"><br>
+			<input type="submit" value="let's get dat madlib yo">
+		</form>
+		{% endblock %}
